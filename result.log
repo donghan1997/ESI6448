@@ -1,2 +1,36 @@
-optimal value: 5
-optimal solution: x1 = 5, x2 = 0
+mization Theory/ESI6448/test.py"
+Set parameter Username
+Academic license - for non-commercial use only - expires 2023-08-20
+Gurobi Optimizer version 9.5.2 build v9.5.2rc0 (mac64[arm])
+Thread count: 8 physical cores, 8 logical processors, using up to 8 threads
+Optimize a model with 4 rows, 2 columns and 6 nonzeros
+Model fingerprint: 0xd5a23a03
+Variable types: 0 continuous, 2 integer (0 binary)
+Coefficient statistics:
+  Matrix range     [1e+00, 5e+01]
+  Objective range  [6e-01, 1e+00]
+  Bounds range     [0e+00, 0e+00]
+  RHS range        [4e+00, 2e+02]
+Found heuristic solution: objective 5.0000000
+Presolve removed 2 rows and 0 columns
+Presolve time: 0.00s
+Presolved: 2 rows, 2 columns, 4 nonzeros
+Variable types: 0 continuous, 2 integer (0 binary)
+
+Root relaxation: objective 5.073548e+00, 1 iterations, 0.00 seconds (0.00 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0 infeasible    0         5.00000    5.00000  0.00%     -    0s
+
+Explored 1 nodes (1 simplex iterations) in 0.00 seconds (0.00 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 1: 5 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 5.000000000000e+00, best bound 5.000000000000e+00, gap 0.0000%
+x1 5
+x2 -0
+Obj: 5
